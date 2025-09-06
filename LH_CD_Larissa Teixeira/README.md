@@ -72,11 +72,11 @@ LinearRegression: RMSE ≈ 0.45 | R² ≈ 0.45
 
 ## Próximos Passos / Melhorias
 
-Usar embeddings de texto (BERT, Word2Vec) para melhorar/enriquecer a classificação por Overview
+Usar (BERT, Word2Vec) para melhorar/enriquecer a classificação por Overview
 
 Importar dados externos (ex.: orçamento, data de lançamento, premios)
 
-Avaliar modelos de boosting (XGBoost, LightGBM)
+Modelos de boosting (XGBoost, LightGBM)
 
 👩‍💻 Autor
 Larissa Teixeira
