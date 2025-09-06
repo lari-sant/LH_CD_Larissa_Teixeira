@@ -13,8 +13,8 @@
 1. Clone este repositório e entre na pasta do projeto.
 
 ```bash
-git clone https://github.com/lari-sant/desafio_cd.git
-cd desafio_cd
+git clone https://github.com/lari-sant/LH_CD_Larissa_Teixeira.git
+cd LH_CD_Larissa_Teixeira
 ```
 
 2. Crie um ambiente virtual e instale as dependências:
