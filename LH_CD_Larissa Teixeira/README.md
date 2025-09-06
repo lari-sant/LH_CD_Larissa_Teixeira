@@ -79,9 +79,12 @@ LinearRegression: RMSE ≈ 0.45 | R² ≈ 0.45
 
 Usar (BERT, Word2Vec) para melhorar/enriquecer a classificação por Overview
 
-Importar dados externos (ex.: orçamento, data de lançamento, premios)
+Novas variáveis: importar dados externos (ex.: orçamento, data de lançamento, premios, frequência de palavras-chave)
 
 Modelos de boosting (XGBoost, LightGBM)
+
+Validação mais robusta
+
 
 👩‍💻 Autor
 Larissa Teixeira
