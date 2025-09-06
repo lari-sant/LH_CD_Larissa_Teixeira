@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import joblib
 
-# Carregar modelo salvo
 model = joblib.load("model_imdb_rating.pkl")
 
 shaw = {
