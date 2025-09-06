@@ -43,30 +43,35 @@ python predict_shawshank.py
 
   ## Perguntas respondidas no desafio
 
-Qual filme recomendar a uma pessoa desconhecida?
+## Qual filme recomendar a uma pessoa desconhecida?
+
 Equilibrando qualidade (nota IMDB alta) e popularidade (número de votos)
 Pelos resultados da análise exploratória, filmes como “The Dark Knight” (2008) ou “Inception” (2010) aparecem entre os mais votados e com notas acima de 8,5.
 
-Principais fatores de alta bilheteria
+## Principais fatores de alta bilheteria
+
 A análise de correlação e distribuições mostrou que:
 - Número de votos (No_of_Votes) tem forte correlação com receita bruta (Gross), indicando que filmes muito comentados como populares tendem a arrecadar mais.
 - Ano de lançamento também influencia: produções mais recentes apresentam receitas maiores, possivelmente devido a preços de ingresso mais altos e maior alcance global.
 - Gêneros de ação/aventura aparecem frequentemente no topo de arrecadação.
 - Elenco/diretor de renome, também impactam positivamente.
 
-Insights da coluna Overview (inferência de gênero)
+## Insights da coluna Overview (inferência de gênero)
+
 Utilizando (TF-IDF + Logistic Regression) para prever o gênero principal a partir da sinopse (Overview).
 - Com os 6 gêneros mais frequentes, obtive uma acurácia em torno de 65–70% no conjunto de teste.
 - Palavras-chave em sinopses ajudam a identificar bem gêneros mais distintos
 - Gêneros próximos (como Drama e Thriller) têm maior confusão.
 Conclusão: é possível inferir o gênero, mas para alta precisão seria necessário usar técnicas mais avançadas (como embeddings de linguagem).
 
-Predição da nota IMDB
+## Predição da nota IMDB
+
 Treinado dois modelos para prever a nota IMDB (IMDB_Rating):
 Linear Regression (baseline)
 RandomForestRegressor 
 
-Métricas no conjunto de teste:
+## Métricas no conjunto de teste:
+
 RandomForest: RMSE ≈ 0.35 | R² ≈ 0.65
 LinearRegression: RMSE ≈ 0.45 | R² ≈ 0.45
 
