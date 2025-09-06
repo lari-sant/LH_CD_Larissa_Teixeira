@@ -3,9 +3,9 @@
 ## Estrutura
 
 - `LH_CD_Notebook.ipynb` — Notebook Jupyter com toda a análise (EDA, modelagem, respostas às perguntas).
-- `model_imdb_rating.pkl` — Modelo final treinado para prever nota do IMDb.
+- `model_imdb_rating.pkl` — Modelo final para prever nota do IMDb.
 - `requirements.txt` — Dependências do projeto (versões fixas).
-- `predict_shawshank.py` — Script CLI que carrega o modelo salvo e imprime a previsão de nota do IMDb para o filme *The Shawshank Redemption*.
+- `predict_shawshank.py` — Script CLI que carrega o modelo salvo e imprime a previsão de nota do IMDb.
 
 ## Instalação e Uso
 ## Como executar
